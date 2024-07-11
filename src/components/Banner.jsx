@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import aquamanImage from '/assets/images/aquaman.jpg'
 
 function Banner() {
   return (
-    <div className='h-[20vh] md:h-[70vh] bg-cover bg-center flex items-end' style={{backgroundImage: `url(https://w0.peakpx.com/wallpaper/331/346/HD-wallpaper-movie-dune-2021.jpg)`}} >
-      <div className='text-white text-xl text-center w-full bg-gray-900/60 p-4' >DUNE: Part 2</div> 
+    <div className=' flex items-end h-[20vh] md:h-[70vh] bg-no-repeat bg-cente bg-cover' style={{backgroundImage: `url(${aquamanImage})`}} >
+      <div className='text-white text-xl text-center w-full bg-gray-900/60 p-4' >Aquaman and the Lost Kingdom</div> 
     
     </div>
   )
